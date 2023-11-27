@@ -20,7 +20,7 @@ class MemberServiceTest {
     @Autowired
     private MemberService memberService;
 
-    @DisplayName("[멤버 회원가입] 회원가입을 하면 Id는 순차적으로 부여된다.")
+    @DisplayName("[멤버 회원가입] 첫번째 회원의 id는 0이다.")
     @Test
     void t1() {
         RsData<Member> joinRs = memberService.join("usernew", "1234");
