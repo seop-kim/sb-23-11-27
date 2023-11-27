@@ -3,7 +3,6 @@ package com.ll.sb231127.domain.member.service;
 import com.ll.sb231127.domain.member.entity.Member;
 import com.ll.sb231127.domain.member.repository.MemberRepository;
 import com.ll.sb231127.global.rsData.RsData;
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
